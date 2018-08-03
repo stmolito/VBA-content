@@ -1,8 +1,11 @@
+---
+title: Run an AppleScript with VB
+ms.prod: office
+ms.date: 06/08/2017
+---
 # Run an AppleScript with VB
  
 Call an AppleScript file from a VB macro in Office 2016 for Mac.
-
-**Last modified:** January 26, 2016 
 
 ***Applies to:*** *Excel for Mac | PowerPoint for Mac | Word for Mac | Office 2016 for Mac*
 
@@ -41,4 +44,4 @@ The following is an example of a handler.
 ```
 
 ##What happened to MacScript?
-The **MacScript** command that supports inline AppleScripts in Office for Mac 2011 is deprecated. Due to sandbox restrictions, the **MacScript** command cannot invoke other applications, such as Finder, in Office 2016 for Mac. We recommend that you use the **AppleScriptTask** command instead of the **MacScript** command in apps for Office 2016 for Mac. 
+Earlier versions of Office for Mac implemented a command called **MacScript** that supported inline AppleScripts. Although that command still exists in Office 2016 for Mac, **MacScript** is deprecated. Due to sandbox restrictions, the **MacScript** command cannot invoke other applications, such as Finder, in Office 2016 for Mac. We recommend that you use the **AppleScriptTask** command instead of the **MacScript** command in apps for Office 2016 for Mac.
